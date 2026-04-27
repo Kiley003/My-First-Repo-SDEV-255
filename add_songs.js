@@ -25,8 +25,7 @@ async function addSong() {
 
     if (response.ok) {
         const result = await response.json()
-        alert(`Added song with ID: ${result.id}`)
-    } else {
-        alert("Failed to add song")
+        alert("Added song with ID" result._id )
+   
     }
 }
